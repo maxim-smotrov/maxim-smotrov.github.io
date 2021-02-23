@@ -12,6 +12,8 @@ body {
   background: url('./website_image_background.png');
   background-size: cover;
   overflow: hidden;
+  display: flex;
+  align-items: center;
 }
 
 .foreground {
@@ -30,24 +32,107 @@ body {
 .text {
   width: 100%;
   height: 20%;
-  margin: 20% auto;
+  margin: 20% 15%;
   text-align: center;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: space-between;
 }
 
 .coming,
 .soon {
+  height: 30%;
+  width: 20%;
   display: flex;
-  font-family: 'Good Times Rg', sans-serif;
-  font-size: 10em;
-  color: white;
+}
+
+.coming {
+  background: url('./coming.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.soon {
+  background: url('./soon.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 @media only screen and (orientation: portrait) {
+  .background {
+    align-items: flex-start;
+  }
+
   .foreground {
-    width: 130%;
+    width: 160%;
+  }
+
+  .text {
+    width: 100%;
+    height: 30%;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .coming,
+  .soon {
+    height: 30%;
+    width: 60%;
+    display: flex;
+  }
+
+  @media only screen and (max-aspect-ratio: 1/1) and (min-aspect-ratio: 30/34) {
+    .foreground {
+      width: 80%;
+    }
+  }
+
+  @media only screen and (max-aspect-ratio: 30/34) and (min-aspect-ratio: 30/38) {
+    .foreground {
+      width: 90%;
+    }
+  }
+
+  @media only screen and (max-aspect-ratio: 30/38) and (min-aspect-ratio: 30/47) {
+    .foreground {
+      width: 100%;
+    }
+  }
+
+  @media only screen and (max-aspect-ratio: 30/47) and (min-aspect-ratio: 30/51) {
+    .foreground {
+      width: 110%;
+    }
+  }
+
+  @media only screen and (max-aspect-ratio: 30/51) and (min-aspect-ratio: 30/55) {
+    .foreground {
+      width: 120%;
+    }
+  }
+
+  @media only screen and (max-aspect-ratio: 30/55) and (min-aspect-ratio: 30/59) {
+    .foreground {
+      width: 130%;
+    }
+  }
+
+  @media only screen and (max-aspect-ratio: 30/59) and (min-aspect-ratio: 30/63) {
+    .foreground {
+      width: 140%;
+    }
+  }
+
+  @media only screen and (max-aspect-ratio: 30/63) and (min-aspect-ratio: 30/67) {
+    .foreground {
+      width: 150%;
+    }
   }
 }
