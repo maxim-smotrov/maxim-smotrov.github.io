@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1254"
+   height="1254"
+   viewBox="0 0 1254 1254"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs1" />
+  <title
+     id="title1">Color sweep</title>
+  <desc
+     id="desc1">Three concentric circular segments with sharp corners. Coral arc shortened by 20 percent at the middle radius. Disk rotated counterclockwise to restore the mint lower edge and increase clearance between blue and the broom handle. Broom and dust circle preserve the latest edits. All artwork is editable vector geometry.</desc>
+  <g
+     id="background-layer">
+    <rect
+       id="background"
+       width="1254"
+       height="1254"
+       fill="#202123"
+       x="0"
+       y="0" />
+  </g>
+  <g
+     id="g1"
+     transform="translate(18.132804,27.840264)">
+    <g
+       id="segments"
+       transform="matrix(0.83721945,-0.27104167,0.27104167,0.83721945,-62.246256,258.66552)">
+      <path
+         id="mint"
+         fill="#80dbbb"
+         d="M 214.62248,989.38598 A 555,555 0 0 1 95.644783,358.37354 l 276.855537,140.693 a 245,245 0 0 0 77.87701,284.93876 z" />
+      <path
+         id="coral"
+         fill="#ff7e86"
+         d="M 115.57852,319.14796 A 555,555 0 0 1 722.2813,48.638491 L 641.90413,348.61018 A 245,245 0 0 0 392.43405,459.84095 Z" />
+      <path
+         id="blue"
+         fill="#69aff0"
+         d="M 764.78204,60.026529 A 555,555 0 0 1 1095.4125,339.81716 L 831.8957,510.94697 A 245,245 0 0 0 684.40487,359.99822 Z" />
+    </g>
+    <g
+       id="broom"
+       transform="rotate(-5.0691709,-277.59443,1319.9989)"
+       style="display:none">
+      <path
+         id="handle"
+         fill="#f7efe3"
+         d="m -42,0 v -392 a 42,42 0 0 1 84,0 V 0 Z"
+         transform="rotate(32,-821.80559,2043.4715)" />
+      <path
+         id="bristles"
+         fill="#f7efe3"
+         d="m 800,783 196,123 c 4.7904,113.0226 -41.22565,299.6822 -82.3892,323.7624 -50.0398,1.7475 -99.94796,-6.1572 -146.99866,-23.2823 37.88175,-54.6579 92.11777,-130.219 106.1678,-207.99057 C 838.51256,1064.5729 779.53679,1136.418 722.94371,1187.4925 678.33074,1164.7611 638.51234,1133.6516 605.66326,1095.863 662,1058 739.95873,989.09243 770.2216,938.7571 738.95873,960.09243 648,1032 576.67535,1058.0852 548.67639,1016.5751 528.93264,970.06171 518.52244,921.08556 628,890 727,843 800,783 Z"
+         transform="matrix(0.85616289,-0.0898794,-0.0898794,0.94383711,204.48527,127.77658)" />
+      <path
+         id="collar"
+         fill="#dcff70"
+         d="m -92,28 v -47 a 42,42 0 0 1 42,-42 H 50 a 42,42 0 0 1 42,42 v 47 z"
+         transform="rotate(32,-946.42802,2003.7232)" />
+    </g>
+    <g
+       id="sparkles"
+       transform="matrix(0.83112542,0,0,0.83112542,113.02223,109.04846)"
+       style="display:inline">
+      <circle
+         id="dust-circle"
+         fill="#dcff70"
+         cx="1098.2384"
+         cy="1112.3538"
+         r="76" />
+    </g>
+    <g
+       id="g4"
+       transform="matrix(0.83112542,0,0,0.83112542,113.02223,109.04846)"
+       style="display:inline">
+      <circle
+         id="circle4"
+         fill="#dcff70"
+         cx="1098.2384"
+         cy="1112.3538"
+         r="76" />
+    </g>
+    <g
+       id="g3"
+       transform="rotate(-7.637005,-22.30367,1098.7297)">
+      <path
+         id="path1"
+         fill="#f7efe3"
+         d="m -42,0 v -392 a 42,42 0 0 1 84,0 V 0 Z"
+         transform="rotate(32,-821.80559,2043.4715)" />
+      <path
+         id="path2"
+         fill="#f7efe3"
+         d="m 818.56621,794.79566 155.9732,97.46935 c -6.08566,106.08271 -62.09541,286.36049 -99.34304,312.93709 -42.80313,6.3624 -84.62571,3.6146 -123.1835,-8.0938 37.2017,-55.0897 90.22174,-131.4237 109.19256,-206.05227 -35.1493,65.51647 -91.87443,138.79447 -144.7003,192.26967 -35.9759,-17.2225 -67.11193,-42.7939 -91.70754,-75.3176 51.4188,-40.998 124.05772,-113.29376 154.37742,-163.5911 -28.5629,23.05642 -112.55084,99.405 -175.68333,130.7135 -20.12735,-36.4889 -32.76911,-78.46903 -37.23492,-123.65257 96.09781,-39.6172 184.69798,-93.2479 252.30945,-156.68227 z"
+         style="stroke-width:0.891536" />
+      <path
+         id="path3"
+         fill="#dcff70"
+         d="m 826.03861,782.83811 24.90621,-39.85826 a 42,42 0 0 1 57.87463,-13.36141 l 84.80481,52.99193 a 42,42 0 0 1 13.36114,57.87462 l -24.90594,39.85827 z" />
+    </g>
+  </g>
+  <metadata
+     id="metadata1">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>Color sweep</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>
