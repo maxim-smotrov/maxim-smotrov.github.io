@@ -91,6 +91,11 @@ a:visited {
   background-size: contain;
 }
 
+.menu .icon.icon-st {
+  background: url('./st_icon.svg') no-repeat center center;
+  background-size: contain;
+}
+
 .menu li {
   display: flex;
   margin-right: 20px;
