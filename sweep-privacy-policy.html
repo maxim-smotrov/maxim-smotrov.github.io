@@ -18,7 +18,7 @@
       <main class="policy-content">
         <h1>Sweep Privacy Policy</h1>
         <hr />
-        <h6>Last update date: September 11, 2026</h6>
+        <h6>Last update date: September 30, 2026</h6>
 
         <p>Sweep is a macOS app that maps disk space and helps you find and remove files. This policy applies to both the direct download and App Store versions.</p>
 
@@ -35,9 +35,22 @@
           <li>Scan history records the path, completion time, and duration of the last scan for each scanned location. The full disk map is kept in memory and is not saved between launches.</li>
           <li>The App Store version saves folder access bookmarks in local preferences so you do not need to select the same folder each time. The direct download version does not save these bookmarks.</li>
           <li>Window size and position are saved so Sweep can restore them when you reopen the app.</li>
-          <li>Error logs contain timestamps and error details, which may include file or folder paths. Sweep keeps a current log and one previous log in the Sweep folder under your home folder's Library/Logs directory. It also writes diagnostic messages to the macOS system log.</li>
+          <li>Error logs contain timestamps and error details, which may include file or folder paths. Sweep keeps a current log and one previous log. The direct download version stores them in <code>~/Library/<wbr>Logs/<wbr>Sweep</code>. The App Store version stores them in <code>~/Library/<wbr>Containers/<wbr>dev.spacewhy.sweep/<wbr>Data/<wbr>Library/<wbr>Logs/<wbr>Sweep</code>. Sweep also writes diagnostic messages to the macOS system log, whose retention is managed by macOS.</li>
         </ul>
         <p>Scan history and saved folder permissions remain in local preferences until removed. Older error logs are replaced as the log grows. Sweep does not upload or synchronize this information. Removing the app alone may leave local preferences and logs on your Mac.</p>
+
+        <h2>Deleting saved data</h2>
+        <p>You can remove Sweep's saved scan history, folder bookmarks, window preferences, and log files from your Mac. Quit Sweep first. In Finder, choose Go &gt; Go to Folder to open the locations below. The <code>~</code> symbol means your home folder.</p>
+        <ul>
+          <li>For the App Store version, open <code>~/Library/<wbr>Containers</code> and move the <code>dev.spacewhy.sweep</code> folder to the Trash. Finder may display this folder as Sweep. This removes the app's saved preferences, folder bookmarks, and logs.</li>
+          <li>For the direct download version, open <code>~/Library/<wbr>Preferences</code> and move <code>dev.spacewhy.sweep.plist</code> to the Trash. Then open <code>~/Library/<wbr>Logs</code> and move the Sweep folder to the Trash.</li>
+        </ul>
+        <p>If you have used both versions, follow both sets of steps. Move only the Sweep items named above. Restart your Mac before opening Sweep again so macOS does not reuse cached preferences. Empty the Trash when you are ready to permanently remove those items.</p>
+        <p>These steps do not delete the files you scanned or macOS system diagnostic logs. If you use Sweep again, it will save new preferences, scan history, and logs as needed.</p>
+
+        <h2>Revoking file access</h2>
+        <p>To turn off Full Disk Access, open System Settings &gt; Privacy &amp; Security &gt; Full Disk Access and turn off Sweep. Under Privacy &amp; Security, you can also review Files &amp; Folders and other categories where Sweep appears, and turn off the access you no longer want to allow. See <a href="https://support.apple.com/guide/mac-help/mchld5a35146/mac">Apple's instructions for controlling file and folder access</a>.</p>
+        <p>The App Store version also remembers folders you select in the folder picker. To make Sweep forget all those saved folder permissions, quit Sweep and follow the App Store data removal steps above. This also clears its saved scan history and preferences. When you next scan a folder, Sweep will ask you to select it again. Removing saved data does not reset the separate permissions managed in System Settings.</p>
 
         <h2>Changes to this policy</h2>
         <p>Any changes to this policy will appear on this page with an updated date.</p>
