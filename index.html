@@ -5,51 +5,83 @@
 <head>
   <meta charset="utf-8" />
 
-  <title>Terra Adventure | SpacewhY</title>
-  <meta name="description" content="Terra Adventure | SpacewhY" />
+  <title>Terra Adventure, Steer and Sweep | SpacewhY</title>
+  <meta name="description" content="Terra Adventure, a space game for iPhone and iPad. Also from SpacewhY: Steer and Sweep for Mac." />
   <meta name="author" content="SpacewhY" />
-  <meta name="viewport" content="initial-scale = 1.0, user-scalable = no" />
-  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#191b30" />
 
-  <link rel="stylesheet" href="styles.css?v=1.3" />
-  <script type="text/javascript">
-    document.addEventListener('touchmove', function (event) {
-      event.preventDefault();
-    }, { passive: false });
-  </script>
+  <link rel="stylesheet" href="styles.css?v=2.0" />
 </head>
 
 <body>
-  <div class="background">
-    <div class="foreground"></div>
-    <ul class="menu">
-      <li>
-        <a href="terra-adventure-privacy-policy.html"><i class="icon icon-ta"></i>Privacy Policy</a>
-      </li>
-      <li>
-        <a href="sweep-privacy-policy.html"><i class="icon icon-sw"></i>Privacy Policy</a>
-      </li>
-      <li>
-        <a href="steer-privacy-policy.html"><i class="icon icon-st"></i>Privacy Policy</a>
-      </li>
-      <li>
-        <a href="mailto:support@spacewhy.dev">Contact Us</a>
-      </li>
-    </ul>
-    <div class="text">
-      <div class="ios">
-        <a href="https://apps.apple.com/us/app/terra-adventure/id1544045634?itsct=apps_box_badge&amp;itscg=30200"><img
-            src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1621296000&h=e9b867f5b7f458fd7c86e8a146ae7493"
-            alt="Download on the App Store"></a>
+  <header class="site-header">
+    <a class="brand" href="index.html"><img src="spacewhy_logo.png" width="110" height="128" alt="" />SpacewhY</a>
+    <nav class="site-nav">
+      <a href="#mac-apps">Mac apps</a>
+      <a href="mailto:support@spacewhy.dev">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1 class="visually-hidden">Terra Adventure</h1>
+      <div class="hero-art">
+        <picture>
+          <source srcset="website_image_foreground.avif" type="image/avif" />
+          <img src="website_image_foreground.png" width="1400" height="1187"
+            alt="Terra Adventure logo with an astronaut, a rocket and a flying saucer above a planet" />
+        </picture>
+        <div class="store-badges">
+          <a href="https://apps.apple.com/us/app/terra-adventure/id1544045634?itsct=apps_box_badge&amp;itscg=30200">
+            <img class="badge-apple"
+              src="https://toolbox.marketingtools.apple.com/api/badges/download-on-the-app-store/black/en-us?size=250x83"
+              alt="Download on the App Store" />
+          </a>
+        </div>
       </div>
-      <div class="android">
-        <a
-          href='https://play.google.com/store/apps/details?id=dev.spacewhy.terraadventure&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img
-            alt='Get it on Google Play'
-            src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' /></a>
-      </div>
-    </div>
-  </div>
+    </section>
+
+    <section class="mac-apps" id="mac-apps">
+      <h2>More apps from us</h2>
+      <ul class="app-list">
+        <li class="app">
+          <img class="app-icon" src="st_icon.svg" alt="" />
+          <div class="app-body">
+            <h3>Steer</h3>
+            <p>Browse and edit instruction files and agent skills for AI agents. Review the diff before you save.</p>
+            <a href="https://apps.apple.com/us/app/steer-ai-instructions/id6814230816">
+              <img class="badge-apple"
+                src="https://toolbox.marketingtools.apple.com/api/badges/download-on-the-mac-app-store/black/en-us?size=250x83"
+                alt="Download Steer on the Mac App Store" />
+            </a>
+          </div>
+        </li>
+        <li class="app">
+          <img class="app-icon" src="sw_icon.svg" alt="" />
+          <div class="app-body">
+            <h3>Sweep</h3>
+            <p>See what takes up space on your Mac on a visual disk map, then move the files you pick to the Trash.</p>
+            <a href="https://apps.apple.com/us/app/sweep-disk-space-cleaner/id6809851535">
+              <img class="badge-apple"
+                src="https://toolbox.marketingtools.apple.com/api/badges/download-on-the-mac-app-store/black/en-us?size=250x83"
+                alt="Download Sweep on the Mac App Store" />
+            </a>
+          </div>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <nav class="footer-links">
+      <a href="terra-adventure-privacy-policy.html">Terra Adventure privacy policy</a>
+      <a href="steer-privacy-policy.html">Steer privacy policy</a>
+      <a href="sweep-privacy-policy.html">Sweep privacy policy</a>
+      <a href="mailto:support@spacewhy.dev">support@spacewhy.dev</a>
+    </nav>
+    <p>&copy; 2026 SpacewhY</p>
+  </footer>
 </body>
 
 </html>
